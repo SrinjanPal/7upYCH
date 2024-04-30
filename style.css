@@ -1,0 +1,445 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+/* head tag under nav bar */
+.head{
+    width:100%;
+    height:50px;
+    position:fixed;
+    background-color: #009e5f;
+    display:flex;
+    justify-content:space-between;
+}
+.head .left-nav{
+    margin-left:50px;
+    width:50%;
+    height:200%;
+    overflow: visible;
+    position:relative;
+}
+/* for image 7up */
+.head .left-nav img{
+    height:100px;
+    overflow:hidden;
+    padding: 0;
+}
+.head .right-nav{
+    margin-top:15px;
+    margin-right:25px;
+}
+.head .right-nav a{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 10px;
+    color:white;
+    text-transform:capitalize;
+
+}
+.head .right-nav a:hover{
+    color:rgb(59, 59, 59);
+}
+/* header end */
+/* main start */
+
+.main-div{
+    display:flex;
+    align-items:center;
+    height:700px;
+    /* left main start */
+
+}
+.main-div .left-main{
+    width:35%;
+    height:100%;
+    background-color:white;
+
+}
+.main-div .left-main img{
+    margin-top:70px;
+    margin-left:70px;
+    width:75%;
+
+}
+.main-div .left-main h2{
+    text-align:center;
+    font-weight:bold;
+    color: #009e5f;
+    text-transform:capitalize;
+    
+    
+}
+.main-div .left-main input{
+    width: 200px;
+    height:50px;
+    font-size:20px;
+    margin:10% 20% 20% 25%;
+    background-color: white;
+    border: 3px solid #009e5f ;
+    color:#009e5f;
+
+}
+.main-div .left-main:hover input{
+    color:white;
+    background-color:#009e5f ;
+    /* animation: */
+    
+/* right main start */
+    
+}
+.right-main{
+    width:70%;
+    height:100%;
+    background-color:black;
+    background-image:url(play-btn.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    backface-visibility:visible;
+
+}
+
+
+.right-main iframe{
+    width: 100%;
+    height: 97.4%;
+    
+
+}
+
+/* main end */
+
+/* new_simple_7up start */
+.new_simple_7up{
+    height:900px;
+    background-image: url(7up-simple-banner.webp);
+    background-position: fill;
+    background-repeat:no-repeat;
+    padding: 20% 0% 0% 10%;
+    width: 100%;
+
+    
+    /* background-size: 50%; */
+
+}
+.new_simple_7up h2{
+    color:white;
+    font-size:70px;
+    padding:0px 0px 10px 0px; 
+}
+.new_simple_7up h3{
+    color:white;
+    font-size:25px;
+    padding:0px 0px 10px 0px;
+}
+.new_simple_7up input{
+    width:200px;
+    height:70px;
+    font-size:20px;
+    font-weight:700;
+    background-color:white;
+    border-color: #009e5f;
+    border:5px;
+    color:#009e5f;
+
+}
+.new_simple_7up input:hover{
+    color:white;
+    background-color:#009e5f ;
+
+}
+/* new_simple_7up end */
+
+/* SECTION SART */
+
+/* CONTAINER A START       */
+.container-a{
+    text-align:center;
+}
+.container-a .coctail-recipes  {
+    background-image:url(module_cocktail.jpg);
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+   height:650px;
+   background-size:100%;
+   /* padding:20% 0% 0% 10%; */ 
+}
+.container-a a{
+    text-decoration: none;
+    color:white;
+}
+.container-a .box{
+    padding:300px 600px;
+}
+.box h2{
+    /* width:200px;
+    height:60px;
+    font-size:20px;
+    font-weight:700;
+    background-color:rgb(158, 51, 69);
+    border-color: rgb(158, 51, 69);
+    border:5px;
+    color:white; */
+    
+    border: 0;
+    padding: 20px 5px;
+    font-size: 35px;
+    font-weight:700 ;
+    text-transform: uppercase;
+    background-color: #fe5887;
+    transition: transform 0.3s;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.box:hover h2{
+    margin:-10px;
+
+}
+
+/* container a end */
+
+/* container b start */
+
+.container-b{
+    text-align:center;
+}
+.container-b .cooking-recipes {
+    background-image:url(module_cooking.jpg);
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+   height:700px;
+   background-size:100%;
+   /* padding:20% 0% 0% 10%; */ 
+}
+.box-1{
+    padding:300px 600px;
+}
+
+.container-b a{
+    text-decoration: none;
+    color:white;
+}
+.container-b .box-1{
+    padding:300px 600px;
+}
+.box-1 h2{
+    border: 0;
+    padding: 25px 5px;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #16be4b;
+    transition: transform 0.3s;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+}
+.box-1:hover h2{
+    margin:-10px;
+
+}
+
+/* container b end */
+
+/* container c start */
+
+.container-c{
+    text-align:center;
+}
+.container-c .all-recipes {
+    background-image:url(module_seeall.jpg);
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+   height:700px;
+   background-size:100%;
+   /* padding:20% 0% 0% 10%; */ 
+}
+.box-2{
+    padding:300px 600px;
+}
+
+.container-c a{
+    text-decoration: none;
+    color: white;
+}
+.container-c .box-2{
+    padding:300px 600px;
+}
+.box-2 h2{
+    border: 0;
+    padding: 25px 5px;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color:rgb(158, 51, 69);;
+    transition: transform 0.3s;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+    
+     
+}
+.box-2:hover h2{
+    margin:-10px;
+
+}
+
+/* container c end */
+
+/*  DRINK IT STRAIGHT UP. start */
+ 
+.drink_straight {
+    display: flex;
+    width: 100%;
+    height: 800px;
+  }
+  
+  .left_side {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .left_side #one {
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    text-align: center;
+    /* background-color: red; */
+  }
+  .left_side #one:hover img {
+    width: 195px;
+  }
+  .left_side #tow {
+    width: 50%;
+    height: 50%;
+    padding: 3px 5px 3px 0px;
+    text-align: center;
+    /* background-color: blue; */
+  }
+  .left_side #tow:hover img {
+    height: 410px;
+    padding-right: 50%;
+  }
+  .left_side #three {
+    width: 50%;
+    height: 50%;
+    padding: 15px;
+    text-align: center;
+    /* background-color: yellow; */
+  }
+  .left_side #three:hover img {
+    width: 190px;
+  }
+  .left_side #four {
+    width: 50%;
+    height: 50%;
+    padding: 15px;
+    text-align: center;
+    /* background-color: green; */
+  }
+  .left_side #four:hover img {
+    width: 210px;
+  }
+  
+  .left_side img {
+    padding: 5px;
+  }
+  
+  .right_side {
+    width: 50%;
+    height: 100%;
+    background: #ececec;
+  }
+  .right_top {
+    padding: 85px 100px 69px 100px;
+  }
+  .right_side .right_top h1 {
+    display: flex;
+    position: relative;
+    font-size: 90px;
+    color: #009e5f;
+  }
+  
+  .right_side .right_top span {
+    position: absolute;
+    top: 85%;
+    left: 25%;
+    font-size: 20px;
+    color: red;
+  }
+  
+  .right_side .right_top p {
+    font-size: 20px;
+    color: rgba(38, 37, 37, 0.488);
+  }
+  .right_bottom img {
+    width: 600px;
+    padding: 0px 111px;
+  
+  }
+
+  
+  footer {
+    width: 100%;
+    height: 800px;
+    padding-top: 25px;
+    background-image: url(https://www.7up.com/images/footer-bg.jpg);
+    background-size: cover;
+  }
+  
+  .relative_and_abosolute .text {
+    width: 500px;
+    height: 50px;
+    margin: 8% 50%;
+  }
+  .relative_and_abosolute .text h1 {
+    text-align: center;
+    background-color: red;
+    transform: matrix(1, -0.4513, 0, 1, 21.8691, 152.353);
+    font-size: 80px;
+    color: white;
+  }
+  .relative_and_abosolute .over_the_footer{
+    margin-left: 200px;
+    margin-top: 400px;
+    width: 75%;
+    height: 150px;
+    background-color: rgba(245, 245, 245, 0.658);
+    
+  }
+   .relative_and_abosolute .over_the_footer  .first_line {
+    text-align: center;
+  padding-bottom: 10px;
+  
+  }
+  .relative_and_abosolute .over_the_footer .first_line a {
+    text-decoration: none;
+    color: #636363;
+    
+    padding: 0px 5px;
+    font-size: 25px;
+  }
+  .relative_and_abosolute .over_the_footer .middle_line {
+    text-align: center;
+    
+    margin-top: 15px;
+  }
+  .relative_and_abosolute .over_the_footer .middle_line a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #636363;
+    padding: 0px 5px;
+  }
+  .relative_and_abosolute .over_the_footer .last_line {
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    color: 636363;
+  } 
